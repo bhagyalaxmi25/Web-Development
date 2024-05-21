@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            border: 2px solid black;
+            background-color: bisque;
+            display: flex;
+            flex-direction: row;
+            width: 400px;
+        }
+        #boxleft{
+            background-color: aquamarine;
+            border: 1px solid blue;
+            width: 45%;
+        }
+        #boxright{
+            background-color: aqua;
+            border: 1px solid rebeccapurple;
+            width: 45%;
+        }
+        p{
+            border: 1px solid brown;
+        }
+        @media (max-width:640px){
+            .container{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+
+        <div id="boxleft">
+            <p>JINU</p>
+            <p>PAPU</p>
+        </div>
+
+        <div id="boxright">
+            <img src="Jinu.JPG" width="200px height=200px">
+        </div>
+
+
+    </div>
+    
+</body>
+</html>
