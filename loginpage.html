@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="loginpage.css">
+</head>
+<body>
+
+    <form>
+
+        <div class="img_container">
+            <img src="https://api.dicebear.com/7.x/notionists/svg?seed=John?size=12" 
+            alt="avatar"
+            class="avatar">
+        </div>
+
+        <div class="container">
+            <lebel for="username">
+                <b>Username</b>
+            </lebel>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <lebel for="psw">
+                <b>Password</b>
+            </lebel>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit">Login</button>
+
+            <lebel>
+                <input type="checkbox" checked="checked" name="remember">Remember me
+            </lebel>
+        </div>
+
+        <div class="container"
+        style="background-color: #f1f1f1">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot 
+                <a href="#">password?</a>
+            </span>
+        </div>
+        
+    </form>
+    
+</body>
+</html>
